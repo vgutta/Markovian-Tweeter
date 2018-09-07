@@ -2,6 +2,7 @@ import urllib3
 import tweepy
 import re
 import csv
+import markovify
 
 consumer_key = "YOURCONSUMERKEY"
 consumer_secret = "YOURCONSUMERSECRET"
@@ -51,9 +52,9 @@ def write_tweets_csv(tweets):
             if tweet:
                 writer.writerow([tweet])
 
-if __name__ == "__main__":
-    tweets = get_all_tweets("jessfraz")
-    write_tweets_csv(tweets)
+#if __name__ == "__main__":
+    #tweets = get_all_tweets("jessfraz")
+    #write_tweets_csv(tweets)
         
     
                 
