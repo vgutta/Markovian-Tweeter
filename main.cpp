@@ -16,7 +16,7 @@ using std::stringstream;
 
 int main() {
     std::vector<std::string> words;
-    std::ifstream file("bananas.txt");
+    std::ifstream file("us_constitution.txt");
  
     std::string word;
     while (file >> word) {
