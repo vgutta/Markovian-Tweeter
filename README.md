@@ -8,6 +8,14 @@ If you input file is not bananas.txt, then change line 19 in main.cpp to the nam
     $ make all
     $ ./bananas
 
+#### Sample output
+Input: US Constitution
+```
+We the People of the government of the President, the President of the United 
+States to vote shall not be denied or abridged by the legislatures of three-fourths
+of the United States, authorized by law, and to exercise like Authority over all
+Places purchased by the people to be a 
+```
 #### Resources used
 
 Text generation with [Markov Chains](https://hackernoon.com/automated-text-generator-using-markov-chain-de999a41e047) \
