@@ -1,4 +1,4 @@
-NAME    =   bananas2
+NAME    =   bananas
 
 G++ =   g++
 
