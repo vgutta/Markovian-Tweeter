@@ -2,9 +2,9 @@ NAME    =   markov
 
 G++ =   g++
 
-CXXFLAGS  =   -W -Wall -Wextra -Werror -std=c++11
+CXXFLAGS  =   -W -Wall -Wextra -Werror -Wno-sign-compare -std=c++11
 
-SRC =   main.cpp
+SRC =   markov.cpp main.cpp
 
 OBJ =   $(SRC:.cpp=.o)
 
