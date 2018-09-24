@@ -27,7 +27,14 @@ int main() {
 
     std::vector<std::string> markovian_tweet = markovian->get_tweet(words);
 
+    int tweet_length = 0;
+    
     for (auto &word : markovian_tweet) {
+        if(tweet_length > 280){
+            break;
+        }
+        tweet_length += word.length();
+        tweet_length += 1;
         cout << word + " ";
     }
     cout << endl;
