@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include <memory>
-#include "markov.h"
+#include "markovian.h"
 
 //Namespaces
 using std::cout;
@@ -22,13 +22,12 @@ int main() {
     while (file >> word) {
         words.push_back(word);
     }
-    std::cout << words.size() << std::endl;
     
-    std::unique_ptr<Markov> markov(new Markov);
+    std::unique_ptr<Markovian> markovian(new Markovian);
 
-    std::vector<std::string> markov_tweet = markov->get_tweet(words);
+    std::vector<std::string> markovian_tweet = markovian->get_tweet(words);
 
-    for (auto &word : markov_tweet) {
+    for (auto &word : markovian_tweet) {
         cout << word + " ";
     }
     cout << endl;

@@ -30,4 +30,5 @@ Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE.
 To watch some training videos, visit http://www.youtube.com/user/c9ide
 
 https://www.twilio.com/blog/2016/09/fun-with-markov-chains-python-and-twilio-sms.html \
-https://hackernoon.com/automated-text-generator-using-markov-chain-de999a41e047
+https://hackernoon.com/automated-text-generator-using-markov-chain-de999a41e047 \
+https://stackoverflow.com/questions/4081662/explain-markov-chain-algorithm-in-laymans-terms

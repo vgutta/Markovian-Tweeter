@@ -1,10 +1,10 @@
-NAME    =   markov
+NAME    =   bananas2
 
 G++ =   g++
 
 CXXFLAGS  =   -W -Wall -Wextra -Werror -Wno-sign-compare -std=c++11
 
-SRC =   markov.cpp main.cpp
+SRC =   markovian.cpp main.cpp
 
 OBJ =   $(SRC:.cpp=.o)
 
